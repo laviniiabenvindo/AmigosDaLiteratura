@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(rgba(115, 3, 190, 0.815), rgba(17, 0, 29, 0.973));
+    font-family: 'Inter', sans-serif;
+}
+main{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+main section{
+    width: 725px;
+    height: 656px;
+    border-radius: 15px;
+    background-color: #E5DDF3;
+}
+main section article{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+}
+main section article h1{
+    font-weight: 400;
+    font-size: 64px;
+    margin-bottom: -50px;
+}
+main section article form{
+    margin: 40px;
+    text-align: center;
+}
+main section article form input{
+    border: none;
+    width: 500px;
+    height: 70px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 30px;
+    background: #B19CD9;
+}
+main section article form .input{
+    text-align: start;
+    margin-top: 30px;
+
+}
+main section article form button{
+    width: 240px;
+    height: 70px;
+    border: none;
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 50px;
+    border-radius: 30px;
+    cursor: pointer;
+    background: #B19CD9;
+}
+button:hover{
+    background: #7432e680;
+    color: #383838;
+}
+span{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+span h3{
+    font-size: 20px;
+    font-weight: 400;
+}
+.underline{
+    width: 300px;
+    background-color: #000;
+}
+.icon{
+    height: 50px;
+}
